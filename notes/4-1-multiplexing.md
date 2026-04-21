@@ -17,7 +17,7 @@ There are three basic multiplexing techniques:
 
 ```mermaid
 graph TD
-    Multiplexing --> Frequency-division multiplexing
-    Multiplexing --> Wavelength-division multiplexing
-    Multiplexing --> Time-division multiplexing
+    A[Multiplexing] --> B[Frequency-division multiplexing]
+    A --> C[Wavelength-division multiplexing]
+    A --> D[Time-division multiplexing]
 ```
