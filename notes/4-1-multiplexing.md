@@ -91,3 +91,49 @@ We shift (modulate) each of the three voice channels to a different bandwidth, a
 
 - **Telephone Systems (Older Analog Systems):** _Multiple voice calls were transmitted over a single line using different frequency ranges._
 
+## Wavelength-Division Multiplexing
+
+Wavelength-Division Multiplexing (WDM) is a technique used in fiber-optic communication where multiple data signals are transmitted simultaneously through a single optical fiber by using different wavelengths (colors) of light.
+
+Wavelength-division multiplexing (WDM) is designed to use the high-data-rate
+capability of fiber-optic cable. The optical fiber data rate is higher than the data rate of
+metallic transmission cable. Using a fiber-optic cable for one single line wastes the
+available bandwidth. Multiplexing allows us to combine several lines into one.
+
+In WDM basic idea is very simple. We want to combine multiple light sources into one single light at the multiplexer and do the reverse at the demultiplexer. The combining and splitting of light sources are easily handled by a prism. Recall from basic physics that a prism bends a beam of light based on the angle of incidence and the frequency. Using this technique, a multiplexer can be made to combine several input beams of light, each containing a narrow band of frequencies, into one output beam of a wider band of frequencies. A demultiplexer can also be made to reverse the process. _Figure 4.1.4_ shows the concept.
+
+<p align="center">
+  <img src="images/4.1.4.png"><br>
+  <em>Figure 4.1.4</em>
+</p>
+
+### Advantages of Wavelength-division multiplexing
+
+- **Huge Data Capacity:** _Optical fibers can carry multiple wavelengths → extremely high bandwidth._
+
+- **Efficient Use of Fiber:** _One fiber can carry many channels, reducing infrastructure cost._
+
+- **Scalable:** _Easy to add more channels by introducing new wavelengths._
+
+- **Low Signal Interference:** _Light wavelengths don’t interfere as much as electrical signals._
+
+- **High-Speed Transmission:** _Supports modern internet, streaming, and cloud services._
+
+### Disadvantages of Wavelength-division multiplexing
+
+- **High Initial Cost:** _Equipment like lasers, multiplexers, and optical amplifiers are expensive._
+
+- **Complex Technology:** _Requires precise control of wavelengths and advanced components._
+
+- **Maintenance Difficulty:** _Troubleshooting fiber systems is harder than electrical systems._
+
+- **Signal Attenuation & Dispersion:** _Light signals weaken and spread over long distances (needs amplification)._
+
+### Uses of Wavelength-division multiplexing
+
+- **Internet Backbone & Fiber Networks:** _Used by ISPs to carry massive internet traffic across countries and continents._
+
+- **Submarine Communication Cables:** _Enables high-speed communication between continents through undersea fiber cables._
+
+- **Telecom Networks:** _Used in modern telecom systems like FTTH (Fiber to the Home)._
+
