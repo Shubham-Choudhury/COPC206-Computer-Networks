@@ -51,11 +51,43 @@ _Figure 4.1.2_ is a conceptual illustration of the multiplexing process. Each so
 </p>
 
 ### Example
+
 Assume that a voice channel occupies a bandwidth of 4 kHz. We need to combine three voice channels into a link with a bandwidth of 12 kHz, from 20 to 32 kHz.
 
-We shift (modulate) each of the three voice channels to a different bandwidth, as shown in *Figure 4.1.3*. We use the 20- to 24-kHz bandwidth for the first channel, the 24- to 28-kHz bandwidth for the second channel, and the 28- to 32-kHz bandwidth for the third one. Then we combine them as shown in *Figure 4.1.3*. At the receiver, each channel receives the entire signal, using a filter to separate out its own signal. The first channel uses a filter that passes frequencies between 20 and 24 kHz and filters out (discards) any other frequencies. The second channel uses a filter that passes frequencies between 24 and 28 kHz, and the third channel uses a filter that passes frequencies between 28 and 32 kHz. Each channel then shifts the frequency to start from zero.
+We shift (modulate) each of the three voice channels to a different bandwidth, as shown in _Figure 4.1.3_. We use the 20- to 24-kHz bandwidth for the first channel, the 24- to 28-kHz bandwidth for the second channel, and the 28- to 32-kHz bandwidth for the third one. Then we combine them as shown in _Figure 4.1.3_. At the receiver, each channel receives the entire signal, using a filter to separate out its own signal. The first channel uses a filter that passes frequencies between 20 and 24 kHz and filters out (discards) any other frequencies. The second channel uses a filter that passes frequencies between 24 and 28 kHz, and the third channel uses a filter that passes frequencies between 28 and 32 kHz. Each channel then shifts the frequency to start from zero.
 
 <p align="center">
   <img src="images/4.1.3.png"><br>
   <em>Figure 4.1.3</em>
 </p>
+
+### Advantages of Frequency-Division Multiplexing
+
+- **Simultaneous Transmission:** _FDM allows multiple signals to be transmitted simultaneously, each using a different frequency band. This is beneficial for continuous data streams (e.g., radio, TV broadcasting)._
+
+- **Low Latency:** _Since all channels are transmitted at the same time, there is minimal delay in signal transmission._
+
+- **Simple Synchronization:** _FDM does not require complex synchronization between channels, unlike TDM which needs precise timing._
+
+- **Suitable for Analog Signals:** _FDM is ideal for analog signals, making it widely used in radio and television broadcasting._
+
+### Disadvantages of Frequency-Division Multiplexing
+
+- **Bandwidth Requirement:** _FDM requires a large bandwidth to accommodate multiple frequency bands, which may not be efficient for systems with limited spectrum._
+
+- **Interference and Crosstalk:** _Adjacent channels can interfere with each other (crosstalk), requiring guard bands and precise filtering._
+
+- **Complex Hardware:** _FDM systems need complex filters and modulators/demodulators, increasing hardware complexity and cost._
+
+- **Less Efficient for Digital Data:** _FDM is less efficient for digital signals and bursty data traffic._
+
+### Uses of Frequency-Division Multiplexing
+
+- **Radio Broadcasting:** _Different radio stations transmit at different frequencies so multiple stations can broadcast simultaneously (eg. 92.7 MHz, 93.5 MHz)._
+
+- **Television Broadcasting:** _Each TV channel is assigned a unique frequency band._
+
+- **Satellite Communication:** _Satellites use FDM to transmit multiple signals (TV, internet, phone) simultaneously._
+
+- **Telephone Systems (Older Analog Systems):** _Multiple voice calls were transmitted over a single line using different frequency ranges._
+
