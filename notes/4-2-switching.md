@@ -40,7 +40,7 @@ A dedicated path is established before communication starts, and it remains rese
 
 3. Connection termination
 
-Example: *Traditional telephone calls*
+Example: _Traditional telephone calls_
 
 ### Packet Switching
 
@@ -59,7 +59,7 @@ Data is broken into small packets, and each packet travels independently through
 
 3. Reassembled at destination
 
-Example: *Internet*
+Example: _Internet_
 
 - In circuit switching, each data unit has entier path address.
 
@@ -87,3 +87,14 @@ CONGESTION: More number of packets are coming in less amount of time to the node
 
 - In packet switching, congestion can happen during data transfer time.
 
+```
+RELIABLE: Loss of Data is minimum.
+```
+
+- Circuit switching is reliable because path is dedicated. But packet switching is unreliable, because loss of data packet can be their.
+
+```
+FAULT TOLERANCE: Ability to continue operating properly, without interruption, despite the failure of one or more hardware or software components.
+```
+
+- Circuit switching is not fault-tolerant since it depends on a fixed path, whereas packet switching is fault-tolerant because packets can take alternate routes when a path fails.
