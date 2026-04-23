@@ -137,3 +137,31 @@ In WDM basic idea is very simple. We want to combine multiple light sources into
 
 - **Telecom Networks:** _Used in modern telecom systems like FTTH (Fiber to the Home)._
 
+## Time-Division Multiplexing
+
+Time-Division Multiplexing (TDM) is a communication technique in which multiple signals share a single communication channel by dividing the transmission time into small time slots.
+
+Each signal is transmitted one after another in rapid succession, but so fast that it appears simultaneous.
+
+```mermaid
+graph TD
+    A[Time-division multiplexing] --> B[Synchronous Time-Division Multiplexing]
+    A --> C[Wavelength-division multiplexing]
+```
+
+### Synchronous Time-Division Multiplexing
+
+Synchronous TDM is a type of Time-Division Multiplexing where each device is assigned a fixed time slot in every cycle, regardless of whether it has data to send or not.
+
+The communication channel is divided into equal time slots. Each device gets a predefined slot in every frame. Data is transmitted in a fixed sequence. Even if a device has no data, its slot remains empty (wasted). Not efficient when devices are inactive.
+
+### Statistical (Asynchronous) Time-Division Multiplexing
+
+Statistical TDM (also called Asynchronous TDM) is an improved version of Time-Division Multiplexing where time slots are assigned only to devices that actually have data to send.
+
+Unlike synchronous TDM (where slots are fixed), statistical TDM is dynamic:
+- No fixed slot for each device
+- Slots are given on demand
+- Only active devices use the channel
+
+Data from multiple devices is stored in a buffer (queue). The multiplexer checks which device has data. It assigns time slots only to active devices. Each transmitted data block includes an address (ID) to identify the sender.
