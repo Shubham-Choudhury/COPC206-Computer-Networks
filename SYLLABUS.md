@@ -10,4 +10,4 @@
 
 1. [Multiplexing (Frequency- Division, Web length- Division, Time Division)](notes/4-1-multiplexing.md)
 
-2. Introduction of Switching (Three Methods of Switching, Switching and TCP/IP Layers)
+2. [Introduction of Switching (Three Methods of Switching, Switching and TCP/IP Layers)](notes/4-2-switching.md)
