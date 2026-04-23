@@ -146,7 +146,7 @@ Each signal is transmitted one after another in rapid succession, but so fast th
 ```mermaid
 graph TD
     A[Time-division multiplexing] --> B[Synchronous Time-Division Multiplexing]
-    A --> C[Wavelength-division multiplexing]
+    A --> C[Statistical (Asynchronous) Time-Division Multiplexing]
 ```
 
 ### Synchronous Time-Division Multiplexing
