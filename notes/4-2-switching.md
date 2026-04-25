@@ -115,8 +115,8 @@ Virtual Circuit Switching is a hybrid technique between Circuit Switching and Pa
 
 ```mermaid
 graph TD
-    A[Virtual Circuit Switching] --> B[Switched Virtual Circuit (SVC)]
-    A --> C[Permanent Virtual Circuit (PVC)]
+    A[Virtual Circuit Switching] --> B[Switched Virtual Circuit]
+    A --> C[Permanent Virtual Circuit]
 ```
 
 1. **Switched Virtual Circuit (SVC):**
