@@ -160,8 +160,122 @@ The communication channel is divided into equal time slots. Each device gets a p
 Statistical TDM (also called Asynchronous TDM) is an improved version of Time-Division Multiplexing where time slots are assigned only to devices that actually have data to send.
 
 Unlike synchronous TDM (where slots are fixed), statistical TDM is dynamic:
+
 - No fixed slot for each device
 - Slots are given on demand
 - Only active devices use the channel
 
 Data from multiple devices is stored in a buffer (queue). The multiplexer checks which device has data. It assigns time slots only to active devices. Each transmitted data block includes an address (ID) to identify the sender.
+
+## Frequency Division Multiplexing (FDM) vs Wavelength Division Multiplexing (WDM) vs Time Division Multiplexing (TDM)
+
+<table>
+<thead>
+  <tr>
+  <th>Feature</th>
+  <th>Frequency Division Multiplexing</th>
+  <th>Wavelength Division Multiplexing</th>
+  <th>Time Division Multiplexing</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+  <th>Basic Principle</th>
+  <td>Divides bandwidth into different frequency bands</td>
+  <td>Uses different light wavelengths (colors) in optical fiber</td>
+  <td>Divides channel into time slots</td>
+  </tr>
+
+  <tr>
+  <th>Signal Type</th>
+  <td>Analog or digital signals</td>
+  <td>Optical (light-based signals)</td>
+  <td>Mostly digital signals</td>
+  </tr>
+
+  <tr>
+  <th>Transmission Medium</th>
+  <td>Copper cables, radio waves</td>
+  <td>Optical fiber only</td>
+  <td>Any medium (copper, fiber, wireless)</td>
+  </tr>
+
+  <tr>
+  <th>Separation Method</th>
+  <td>Frequency separation</td>
+  <td>Wavelength (color) separation</td>
+  <td>Time separation</td>
+  </tr>
+
+  <tr>
+  <th>Simultaneous Transmission</th>
+  <td>Yes (all signals sent at same time on different frequencies)</td>
+  <td>Yes (multiple light signals simultaneously)</td>
+  <td>No (signals sent one after another in time slots)</td>
+  </tr>
+
+  <tr>
+  <th>Synchronization Needed</th>
+  <td>Not required</td>
+  <td>Not required</td>
+  <td>Required (strict timing control)</td>
+  </tr>
+
+  <tr>
+  <th>Bandwidth Usage</th>
+  <td>Continuous spectrum divided</td>
+  <td>Very high capacity (huge bandwidth in fiber)</td>
+  <td>Shares full bandwidth but in time slices</td>
+  </tr>
+
+  <tr>
+  <th>Efficiency</th>
+  <td>Moderate (guard bands needed)</td>
+  <td>Very high (efficient use of fiber)</td>
+  <td>High (especially in digital systems)</td>
+  </tr>
+
+  <tr>
+  <th>Complexity</th>
+  <td>Moderate</td>
+  <td>High (requires optical devices like lasers, prisms)</td>
+  <td>Moderate to high (needs synchronization)</td>
+  </tr>
+
+  <tr>
+  <th>Cost</th>
+  <td>Lower</td>
+  <td>Expensive (fiber + optical equipment)</td>
+  <td>Moderate</td>
+  </tr>
+
+  <tr>
+  <th>Interference</th>
+  <td>Possible (adjacent channel interference)</td>
+  <td>Very low</td>
+  <td>Minimal</td>
+  </tr>
+
+  <tr>
+  <th>Example</th>
+  <td>Radio broadcasting, cable TV</td>
+  <td>Fiber optic internet backbone</td>
+  <td>Telephone systems, digital communication</td>
+  </tr>
+</tbody>
+</table>
+
+### Always Remember
+
+FDM → “Different frequencies at the same time”
+
+- 📻 Like multiple radio stations
+
+WDM → “Different colors of light at the same time”
+
+- 🌈 Used in high-speed fiber networks
+
+TDM → “Same channel, different time slots”
+
+- ⏱ Like people speaking one after another
