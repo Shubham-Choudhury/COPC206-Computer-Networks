@@ -28,9 +28,10 @@ Technologies like cloud computing, IoT, 5G, and AI systems all depend on strong 
 **🛠️ 5. Practical & Real-World Applications**
 
 You will learn how to:
-- Set up networks  
-- Troubleshoot connectivity issues  
-- Understand Wi-Fi, LAN, WAN, and Internet protocols  
+
+- Set up networks
+- Troubleshoot connectivity issues
+- Understand Wi-Fi, LAN, WAN, and Internet protocols
 
 **🌍 6. Connect the World**
 
@@ -38,6 +39,8 @@ Computer Networks enable global communication, remote work, online education, an
 
 **✨ In Simple Words:**
 
-*Computer Networks teach you how computers “talk” to each other — and that’s what makes the digital world possible.*
+_Computer Networks teach you how computers “talk” to each other — and that’s what makes the digital world possible._
 
-## SYLLABUS: [Click Here](SYLLABUS.md)
+## NOTES: [Click Here](NOTES.md)
+
+## LAB EXPERIMENTS: [Click Here](LAB-EXPERIMENTS.md)
