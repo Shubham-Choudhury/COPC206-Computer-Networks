@@ -230,3 +230,24 @@ Specific services provided by the application layer include the following:
 - **Mail services:** This application provides the basis for e-mail forwarding and storage.
 
 - **Directory services:** This application provides distributed database sources and access for global information about various objects and services.
+
+```mermaid
+graph TD
+    A[OSI Reference Model]
+
+    A --> B[Application Layer]
+    B --> C[Presentation Layer]
+    C --> D[Session Layer]
+    D --> E[Transport Layer]
+    E --> F[Network Layer]
+    F --> G[Data Link Layer]
+    G --> H[Physical Layer]
+
+    B --> I[To allow access to network resources]
+    C --> J[To translate, encrypt, and compress data]
+    D --> K[To establish, manage, and terminate sessions]
+    E --> L[To provide reliable process-to-process message delivery and error recovery]
+    F --> M[To move packets from source to destination; to provide internetworking]
+    G --> N[To organize bits into frames; to provide hop-to-hop delivery]
+    H --> O[To transmit bits over a medium; to provide mechanical and electrical specifications]
+```
