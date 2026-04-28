@@ -29,3 +29,13 @@
 4. Data Link protocols (Simple protocols, Stop-and-wait Protocol, Piggybacking)
 
 5. Media Access Control (Random Access, Controlled Access, Channelization)
+
+### UNIT 6: Network Layer
+
+1. Network Layer services (Packetizing, Routing and Forwarding)
+
+2. Network-Layer Performance (Delay, Throughput, packet Loss, Congestion Control)
+
+3. [IPV4 Address (Address Space, Classful and Classless addressing)](notes/6-3-ipv4.md)
+
+4. Routing Algorithms
