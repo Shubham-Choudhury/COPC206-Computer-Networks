@@ -12,6 +12,17 @@ To compare specifications of different networking cables.
 
 Different cables have different bandwidth, speed, and performance characteristics (e.g., Cat5 vs Cat6).
 
+| Feature            | Cat5 Cable           | Cat6 Cable                    |
+| ------------------ | -------------------- | ----------------------------- |
+| Category           | Category 5           | Category 6                    |
+| Bandwidth          | Up to 100 MHz        | Up to 250 MHz                 |
+| Speed              | Up to 100 Mbps       | Up to 1 Gbps (10 Gbps short)  |
+| Crosstalk          | More                 | Less                          |
+| Internal Structure | Simple twisted pairs | Better insulation + separator |
+| Cost               | Lower                | Higher                        |
+| Usage              | Old networks         | Modern high-speed networks    |
+| Performance        | Basic                | High                          |
+
 ## Apparatus/Equipments/Softwares:
 
 - Internet
