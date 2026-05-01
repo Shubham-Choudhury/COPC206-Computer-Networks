@@ -43,7 +43,7 @@ _Computer Networks teach you how computers “talk” to each other — and that
 
 ## NOTES: [Click Here](NOTES.md)
 
-## LAB EXPERIMENTS: [Click Here](LAB-EXPERIMENTS.md)
+<!-- ## LAB EXPERIMENTS: [Click Here](LAB-EXPERIMENTS.md) -->
 
 ### Reference Books
 
