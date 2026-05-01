@@ -21,7 +21,7 @@ In a wired LAN, devices are connected using Ethernet cables and communicate thro
 
 - PCs (2 or more)
 - Network Switch
-- LAN Cables (Ethernet – Straight-through) 🔌
+- LAN Cables (Ethernet – Straight-through) 
 - Cisco Packet Tracer
 
 ## Procedure:
