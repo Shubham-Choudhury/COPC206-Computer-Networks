@@ -14,16 +14,16 @@ Networking cables are used to transmit data between devices. Common types includ
 
 #### Twisted Pair Cable
 
-Twisted Pair Cable is a type of copper communication cable widely used in networking and telecommunications. It consists of pairs of insulated wires twisted together to reduce interference. Two copper wires form a pair. Each pair is twisted to cancel electromagnetic interference (EMI). Multiple pairs are bundled inside one cable (usually 4 pairs in Ethernet cables). They are of two types based on the presence or absence of shielding around the wire pairs:
+A twisted pair cable is a type of networking cable in which two insulated copper wires are twisted together to reduce electromagnetic interference and crosstalk. It is widely used in LANs for Ethernet communication and comes in two main types: UTP (Unshielded Twisted Pair) and STP (Shielded Twisted Pair). Twisting improves signal quality, making it reliable and cost-effective for data transmission over short to medium distances.
 
-1. <b><u>Unshielded Twisted Pair Cables(UTP):</u></b> These are a pair of two insulated copper wires twisted together without any other insulation. They reduce the external interference due to the presence of insulation. They are arranged in pairs so that we can add a new connection whenever required.
+1. <b><u>Unshielded Twisted Pair Cables(UTP):</u></b> An Unshielded Twisted Pair (UTP) cable is a common type of twisted pair cable that does not have additional shielding around the wires. It consists of pairs of copper wires twisted together to reduce interference and is widely used in Ethernet networks like Cat5, Cat5e, and Cat6. UTP cables are lightweight, flexible, cost-effective, and easy to install, making them the most popular choice for home and office networking, although they are more susceptible to electromagnetic interference compared to shielded cables.
 
 <p align="center"> 
   <img src="images/Unshielded-Twisted-Pairs-Cable.webp"><br>
   <em>Unshielded Twisted Pair Cables</em>
 </p>
 
-2. <b><u>Shielded Twisted Pair Cables (STP)</u></b> These types of cables have extra insulation or protective covering over the conductors in the form of a copper braid covering. This covering provides strength to the overall structure of the cable. It also reduces noise and signal interference in the cable. The shielding ensures that the induced signal can be returned to the source via ground and only circulate around the shield without affecting the main propagating signal.
+2. <b><u>Shielded Twisted Pair Cables (STP):</u></b> A Shielded Twisted Pair (STP) cable is a type of twisted pair cable that includes extra shielding (foil or braided metal) around the wire pairs to protect against electromagnetic interference (EMI) and crosstalk. It is commonly used in environments with high electrical noise, such as industrial areas or near heavy machinery. Although STP cables provide better signal quality and higher reliability, they are more expensive, thicker, and slightly harder to install compared to UTP cables.
 
 <p align="center"> 
   <img src="images/Shielded-Twisted-Pairs-Cable.jpg"><br>
@@ -31,7 +31,7 @@ Twisted Pair Cable is a type of copper communication cable widely used in networ
 </p>
 
 #### Coaxial Cable
-Coaxial Cable is a type of guided media made of Plastics, and copper wires which transmit the signal in electrical form rather than light form. Coaxial cable is also known as coax. The core copper conductor is used for the transmission of signals and the insulator is used to provide insulation to the copper conductor the insulator is surrounded by a braided metal conductor which helps to prevent the interference of electrical signals and prevent cross talk. This entire setup is again covered with a protective plastic layer to provide extra safety to the cable.
+A coaxial cable is a type of transmission cable that consists of a central copper conductor, surrounded by an insulating layer, a metallic shield, and an outer protective jacket. This design helps reduce signal interference and maintain signal quality over longer distances. Coaxial cables are commonly used in cable TV, internet connections, and CCTV systems, offering better shielding and performance compared to twisted pair cables.
 
 <p align="center"> 
   <img src="images/Coaxial-Cable.jpg"><br>
@@ -40,21 +40,38 @@ Coaxial Cable is a type of guided media made of Plastics, and copper wires which
 
 #### Fiber Optic Cable
 
-Fiber-optic cabling is widely used for high-speed Ethernet links over relatively long distances. It uses glass or plastic fiber as a medium through which light is "guided" to the other end of the link. The fiber-optic cable itself has several layers made from different materials and having different functions. The most important layer is the core, which is the very center of the cable. A light source, called transmitter or Tx, shines a light into the core. The core itself is surrounded by optical material called the cladding that keeps the light in the core using an optical technique called total internal reflection. Together the cladding and core create the environment to allow transmission of light over the cable.
+A fiber optic cable is a high-speed transmission medium that uses light signals instead of electrical signals to transmit data through thin strands of glass or plastic fibers. It offers very high bandwidth, faster data transmission, and minimal signal loss over long distances. Fiber optic cables are widely used in internet backbones, telecommunications, and high-speed networks, and are highly resistant to electromagnetic interference, making them more reliable than copper cables.
 
 <p align="center"> 
   <img src="images/optic-fiber-cable.jpg"><br>
   <em>Fiber Optic Cable</em>
 </p>
 
-- Connectors like RJ45, BNC are used to terminate cables.
+#### RJ45 Connector
+
+An RJ45 (Registered Jack 45) is a standard connector used to terminate Ethernet cables like Cat5, Cat5e, and Cat6. It has 8 pins that connect to the 8 wires inside a twisted pair cable, enabling data transmission in LAN networks. RJ45 connectors are commonly used to connect computers, switches, and routers, and are essential for establishing wired network connections.
+
+<p align="center"> 
+  <img src="images/RJ45-Connector.jpg"><br>
+  <em>RJ45 Connector</em>
+</p>
+
+#### BNC Connector
+A BNC (Bayonet Neill–Concelman) connector is a type of coaxial cable connector that uses a bayonet locking mechanism for quick and secure connections. It is commonly used in CCTV systems, radio frequency applications, and older Ethernet networks. BNC connectors provide reliable signal transmission with good shielding, making them suitable for high-frequency signals and video connections.
+
+<p align="center"> 
+  <img src="images/BNC-Connector.jpg"><br>
+  <em>BNC Connector</em>
+</p>
 
 ## Apparatus/Equipments/Softwares:
 
 - UTP Cable
+- STP Cable
 - Coaxial Cable
 - Fiber Cable
 - RJ45 Connectors
+- BNC Connector
 
 ## Procedure:
 
