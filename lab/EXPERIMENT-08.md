@@ -19,7 +19,7 @@ Cisco Packet Tracer is widely used for:
 - Configuring devices (router, switch, PC)
 - Testing connectivity using commands like ping
 
-👉 Advantages:
+Advantages:
 
 - Cost-effective
 - Safe environment
