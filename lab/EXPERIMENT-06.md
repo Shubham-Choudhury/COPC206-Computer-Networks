@@ -14,7 +14,7 @@ Devices like repeater, hub, bridge, switch, router, gateway, access point, firew
 
 #### Repeater
 
-A repeater is a basic networking device that receives weak or degraded signals, regenerates them, and retransmits them to extend the distance of a network. It operates at the Physical Layer (Layer 1) of the OSI model and does not analyze or filter data—it simply boosts the signal strength. Repeaters are commonly used in both wired and wireless networks, such as Wi-Fi range extenders, to improve coverage in large
+A repeater is a basic networking device that receives weak or degraded signals, regenerates them, and retransmits them to extend the distance of a network. It operates at the Physical Layer (Layer 1) of the OSI model and does not analyze or filter data—it simply boosts the signal strength. Repeaters are commonly used in both wired and wireless networks, such as Wi-Fi range extenders, to improve coverage in large areas.
 
 <p align="center"> 
   <img src="images/6.1-1.jpg">
